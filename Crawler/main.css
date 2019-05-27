@@ -6,8 +6,8 @@
 }
 body{
   
-  background: #3D405Bdd;
-  color: #fff07c;
+  background: #3D405B;
+  color: #09FF00;
   font-family: 'Audiowide', cursive;
   margin: 0; padding: 0;
 }
@@ -40,8 +40,18 @@ body{
   color: #ff6b35;
 }
 h2{
-  color: #e07a5f;
+  color: #ffef00;
   font-size: 3em;
+  line-height: 35px;
+}
+.fa-phone{
+	font-size: 24px;
+}
+.fa-envelope{
+	font-size: 24px;
+}
+.fa-map-marked-alt{
+	font-size: 24px;
 }
 .col{
   
@@ -76,7 +86,17 @@ h2{
   font-size: 1em;
   clear: both;
 }
-.material-icons{
+.fa-phone{
+  margin-right: 10px;
+  display: inline-flex;
+    vertical-align: top;
+}
+.fa-envelope{
+  margin-right: 10px;
+  display: inline-flex;
+    vertical-align: top;
+}
+.fa-map-marked-alt{
   margin-right: 10px;
   display: inline-flex;
     vertical-align: top;
