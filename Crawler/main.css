@@ -4,6 +4,7 @@
 *{
   box-sizing: border-box;
 }
+
 body{
   
   background: #3D405B;
@@ -11,9 +12,13 @@ body{
   font-family: 'Audiowide', cursive;
   margin: 0; padding: 0;
 }
-
 #container{
   padding: 20px;
+  position: relative;
+
+}
+#subcontainer{
+  padding: 200px;
   position: relative;
 
 }
@@ -64,17 +69,22 @@ h2{
     -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
 }
+
+
 .col:nth-child(1) {
+  text-align: center;
   line-height: 24px;
   background:  url("media/spec.jpg");
   background-size: cover;
 }
 .col:nth-child(2) {
+  text-align: center;
   line-height: 24px;
   background:  url("media/sec.jpg");
   background-size: cover;
 }
 .col:nth-child(3) {
+  text-align: center;
   line-height: 24px;
   background: url("media/mapa.jpg");
   background-size: cover;
@@ -87,6 +97,27 @@ h2{
   clear: both;
 }
 .fa-phone{
+  margin-right: 10px;
+  display: inline-flex;
+    vertical-align: top;
+}
+.fa-id-card{
+  
+  font-size: 200px;
+  margin-right: 10px;
+  display: inline-flex;
+    vertical-align: top;
+}
+.fa-user-shield{
+  
+  font-size: 200px;
+  margin-right: 10px;
+  display: inline-flex;
+    vertical-align: top;
+}
+.fa-info{
+  
+  font-size: 200px;
   margin-right: 10px;
   display: inline-flex;
     vertical-align: top;
