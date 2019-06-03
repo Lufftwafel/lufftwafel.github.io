@@ -4,6 +4,11 @@
 *{
   box-sizing: border-box;
 }
+.col{
+	height: 350px;
+	
+}
+
 
 body{
   
@@ -103,21 +108,21 @@ h2{
 }
 .fa-id-card{
   
-  font-size: 200px;
+  font-size: 190px;
   margin-right: 10px;
   display: inline-flex;
     vertical-align: top;
 }
 .fa-user-shield{
   
-  font-size: 200px;
+  font-size: 170px;
   margin-right: 10px;
   display: inline-flex;
     vertical-align: top;
 }
 .fa-info{
   
-  font-size: 200px;
+  font-size: 170px;
   margin-right: 10px;
   display: inline-flex;
     vertical-align: top;
@@ -143,6 +148,7 @@ h2{
     width: 150px;
   }
   .col{
+	  width: 100%;
     font-size: 10px;
   }
 }
@@ -179,15 +185,14 @@ h2{
   .img{
     width: 300px;
   }
-
-}
 @media (min-width: 1050px) {
 
   .col:nth-child(2){
     display: block;
   }
   .col{
-    width: calc((100% - 60px) / 3);
+    
+	width: calc((100% - 60px) / 3);
     float: left;
     font-size: 12px;
   }
