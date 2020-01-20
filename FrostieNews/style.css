@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+
+body{
+  
+  background: #3D405B;
+  color: #09FF00;
+  font-family: 'Audiowide', cursive;
+  margin: 0; padding: 0;
+  background-image: url(media/tlo.png);
+  background-size: cover;
+}
+#container{
+  padding: 0px;
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin: 0px 0;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+	 
+
+}
+
+
+#logo{
+  display: block;
+  width: 100%;
+  height: 10%;
+  overflow: auto;
+  padding-top: 20px;
+  position: relative;
+}
+
+#tytul {
+    width: 100%;
+	height: 40px;
+	margin: 0;
+	border-bottom: black dotted;
+	padding: 5px;
+	font-size:30px;
+	text-align: center;
+	color: white;
+}
+#srodek1 {
+	width: 100%;
+	height: calc(45% - 80px);
+    padding: 20px;
+}
+#rys{
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+#text{
+    width: 90%;
+    float: right;
+    padding-left: 15px;
+}
+#srodek2 {
+	width: 100%;
+	height: 55%;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+	flex-flow: row;
+}
+#pogoda1 {
+	width: 50%;
+	float: left;
+	height: 100%;
+	border-right: black dotted;
+     align-items: center;
+    justify-content: center;
+	flex-flow: row;
+	
+}
+
+#pogoda2 {
+	width: 50%;
+	float: right;
+	height: 100%;
+    align-items: center;
+    justify-content: center;
+	flex-flow: row;
+	
+}
+#srodek3 {
+	width: 100%;
+	height: calc(30% - 80px);
+	padding: 20px;
+    font-size: 40px;
+}
+#srodek4 {
+	width: 100%;
+	height: calc(30% - 80px);
+    font-size: 20px;
+	
+}
+#srodek5 {
+	width: 100%;
+	
+	height: calc(40% + 40px);
+}
+#zdj1 {
+	width: 33%;
+	float: left;
+	
+	height: 100%;
+	
+}
+
+#zdj2 {
+	width: 33%;
+	float: left;
+	
+	height: 100%;
+	
+	margin: 0 auto;
+	
+}
+#zdj3 {
+	width: 33%;
+	float: right;
+	
+	height: 100%;
+	
+	margin: 0 auto;
+	
+}
+.fa-cloud-showers-heavy{
+    font-size: 150px;
+}
+
+.fa-sun{
+    font-size: 150px;
+}
+
+.fa-first-order{
+    font-size: 100px;
+}
+.fa-table-tennis{
+    font-size: 40px;
+}
+
+.col{
+  
+  height: 100%;
+  width: 50%;
+  font-size: 9px;
+  padding: 0 0px;
+  float: left;
+  background: #3D405Bdd;
+  
+}
+.stopka{
+  height: 10%;
+  padding-top: 20px;
+  color: #f4f1de;
+  text-align: center;
+  font-size: 1em;
+  clear: both;
+}
+.col:nth-child(1) {
+  float: left;
+  
+  line-height: 24px;
+  border-right: dotted;
+  border-color: black;
+}
+.col:nth-child(2) {
+  float: right;
+  
+  line-height: 24px;
+  
+}
+.logo{
+  font-size: 2.72em;
+  font-family: 'Audiowide', cursive;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 750px) {
+ 
+  .container{
+        height: 80%;
+    }
+ 
+  .col{
+    
+    width: 50%;
+    float: left;
+    font-size: 11px;
+    
+  }
+    img {
+  width: 100%;
+  height: auto;
+}
+  
+@media (min-width: 950px) {
+ 
+  .img{
+    width: 300px;
+  }
+@media (min-width: 1050px) {
+    
+    .container{
+        height: 80%;
+    }
+ 
+  .col{
+    
+	width: 50%;
+    float: left;
+    font-size: 12px;
+  }
+}
